@@ -31,16 +31,10 @@ function App() {
       
    }
 
-   const maxItems = () =>{
-     if(items.length > 10){
-       alert('Max Items surpased');
-     }
-     
-   }
-
-   useEffect(() => {
-     maxItems();  
-   }, [items]);
+   useEffect(() =>{
+        alert('Stay Safe Stay Healthy')    
+   },[])
+  
 
   return (
     <div className="App">
